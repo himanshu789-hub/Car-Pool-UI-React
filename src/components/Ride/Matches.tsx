@@ -9,7 +9,7 @@ interface IMatches {
 }
 function Matches(props: IMatches) {
   let { offers, book } = props;
-  console.log(
+     
     offers.map((e, index) => {
       return (
         <OfferCard

@@ -140,5 +140,5 @@ OfferService.Create({
 	SeatsAvailable: 3,
 	date: "31/03/2020"
 });
-console.log(OfferService.Offers);
+   
 export default OfferService;

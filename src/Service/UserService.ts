@@ -48,6 +48,6 @@ var UserService = {
   }
 };
 UserService.Initialize();
-console.log(UserService.Users);
+   
 
 export default UserService;

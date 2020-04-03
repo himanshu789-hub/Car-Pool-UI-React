@@ -133,9 +133,9 @@ class Form extends React.Component<IFormProps, IFormState> {
     data.append("file", this.state.ImageUploaded);
     debugger;
     const res = await axios.post("http://localhost:5000/upload", data, {});
-    console.log(res);
+      
     if (res.status != 200) {
-      console.log("failed", res.data.msg);
+        
     } else {
       debugger;
       this.setState(
@@ -145,10 +145,10 @@ class Form extends React.Component<IFormProps, IFormState> {
           isImageUploaded: true
         },
         () => {
-          console.log("state updated after satte");
+            
         }
       );
-      console.log("Axios Post");
+        
     }
   }
 
@@ -181,11 +181,11 @@ class Form extends React.Component<IFormProps, IFormState> {
       this.setState(state => {
         return { User: { ...state.User, [name]: value } };
       });
-      //   this.setState({ User: this.user }, () => { console.log('==>', this.user) })
+      //   this.setState({ User: this.user }, () => {   
     } else {
       const newKey = {};
       newKey[name] = value;
-      this.setState(newKey, () => console.log(newKey));
+      this.setState(newKey, () =>   
     }
   }
   handleCancel() {

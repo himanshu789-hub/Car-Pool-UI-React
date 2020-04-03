@@ -68,7 +68,7 @@ class Home extends React.Component<HomeProps, HomeState> {
 		const { id } = this.props.match.params;
 		const { user } = this.state;
 
-		console.log("Ya!");
+		   
 		return (
 			<>
 				<div id="home">

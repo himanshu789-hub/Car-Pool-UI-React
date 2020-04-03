@@ -116,7 +116,7 @@ class Ride extends React.Component<RideProps, RideState> {
       match: { url }
     } = this.props;
     let { history } = this.props;
-    console.log(convertUrl(url, "book"));
+       
     if (Toogle) {
       this.setState({
         Toogle: false,
@@ -272,7 +272,7 @@ class Ride extends React.Component<RideProps, RideState> {
       newOffer.price = offer.price;
       newOffer.seats = offer.seats;
       newOffer.timeInterval = offer.timeInterval;
-      console.log(OfferService.Update(offer));
+         
     } else {
       const {
         timeInterval,
@@ -350,7 +350,7 @@ class Ride extends React.Component<RideProps, RideState> {
     } = this.state;
 
     let checkboxes = [] as any;
-    console.log("state before render : ", this.state);
+       
     checkboxes = TimeInterval.map((e, index) => {
       if (index == 0)
         return (

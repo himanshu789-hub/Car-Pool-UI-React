@@ -7,9 +7,7 @@ import UserService from "../../Service/UserService";
 
 class App extends React.Component {
 	render() {
-		{
-			console.log(UserService.Users);
-		}
+		
 		return (
 			<BrowserRouter>
 				<Switch>
