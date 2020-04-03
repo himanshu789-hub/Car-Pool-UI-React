@@ -1,0 +1,100 @@
+.offerCard {
+  box-shadow: 0 0 2px grey;
+  width: 402px;
+  border-radius: 10px;
+  padding: 14px;
+  margin-bottom: 10px;
+  height: 201px;
+  padding-bottom: 31px;
+  transition: all 1s ease-in;
+  background: white;
+}
+
+#offerHead {
+  font-size: 36px;
+}
+
+
+/* 
+.section1>img {
+    float: left;
+    width: 194px;
+    height: 35px;
+} */
+
+.offerCard>div p:first-child {
+  font-size: 19px;
+  color: grey;
+}
+
+.offerCard>div>div p:last-child {
+  font-size: 22px;
+}
+
+#price>p:first-child,
+#seats>p:first-child {
+  font-size: 19px;
+  color: grey;
+}
+
+#price:last-child,
+#seats:last-child {
+  font-size: 22px;
+}
+
+.canOfferEditmessage:not(:empty) {
+  margin-left: 75px;
+  font-weight: bold;
+  color: #cc0a0c;
+  /* background: #B03DB7; */
+  transition: .2s ease-in;
+}
+
+#space {
+  width: 137px;
+  float: left;
+  height: 52px;
+}
+
+.hovering:hover {
+  /* border: 1px solid grey; */
+  transition: all 1s ease-out;
+  /* box-shadow: inset 4px -2px 1px 0px black; */
+  /* box-shadow: 4px 4px black; */
+  /* text-shadow: 0 0 black; */
+  box-shadow: 0px 0px 7px 3px #ffac19;
+}
+
+.selectOffer {
+  float: right;
+  font-size: 33px;
+  color: #02631c;
+}
+
+#offerHead>img {
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  border: none;
+  float: right;
+}
+
+
+/* #section2>div:first-child {
+    float: left;
+}
+
+#section2>div:last-child {
+    float: left;
+} */
+
+
+/* }
+#section3>div:first-child
+{
+float:left;
+}
+#section3>div:last-child
+{
+float:right;
+} */
